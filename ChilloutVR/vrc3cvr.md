@@ -37,11 +37,14 @@
 
 ![image](https://user-images.githubusercontent.com/24230448/181520625-b04a305c-2059-481c-b529-f91164b55a80.png)
 
+## 5. Finishing steps
+* Make sure that the dynamic bones were converted properly.
+* Remove all VRC Contact Receiver and VRC Contact Sender components.
+* In CVR Avatar script (root of your avatar) move Voice Position to where your mouth is.
 
-## 5. Uploading
+## 6. Uploading
 * Alpha Blend Interactive -> Control Panel
 * Log in using your login and CCK API Key (that you can find [here](https://hub.abinteractive.net/my?cat=edit))
 * Select the avatar in the Control Panel and upload it following the instructions in CCK.
 
-## 6. Done
-### You might wanna adjust some things after converting everything. Like.. The latest Rex has a floor trigger/collider & headpat animation that won't work with Dynamic Bones, so you probably want to yeet them. Also Voice position is currently in your view position, because VRC doesn't have that at all, so maybe move it where your mouth is.
+## 7. Done
